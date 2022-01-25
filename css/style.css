@@ -1,3 +1,15 @@
+/*--------- card group ----*/
+.special-card{
+    position: relative;
+    border: 1px solid blue;
+    bottom: 45px;
+    /* background-color: #7e3ff2; */
+}
+.special-button{
+    border: 1px solid blue;
+    margin-bottom: 25px;
+}
+
 /* ---------footer-------- */
 .footer-part{
     width: 100%;
