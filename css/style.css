@@ -3,11 +3,13 @@
     position: relative;
     border: 1px solid blue;
     bottom: 45px;
-    /* background-color: #7e3ff2; */
+    background-color: #0091EA;
 }
 .special-button{
     border: 1px solid blue;
     margin-bottom: 25px;
+    background-color: white;
+    /* z-index: 1; */
 }
 
 /* ---------footer-------- */
