@@ -1,0 +1,12 @@
+/* ---------footer-------- */
+.footer-part{
+    width: 100%;
+    height: 25vh;
+}
+#copyright{
+    padding-left: 100px;
+}
+.google-app{
+    padding: 0;
+    width: 150px;
+}
