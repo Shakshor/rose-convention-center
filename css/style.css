@@ -1,3 +1,21 @@
+/* -------- header part ------ */
+.toast{
+    /* display: block; */
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    width: 230px;
+    border-left: 5px solid #00E676;
+    
+}
+.toast-header img{
+    width: 15px;
+}
+.toast-header .btn-close{
+    height: 1px;
+    margin-left: 12px;
+}
+
 /*--------- card group ----*/
 .card .card-title{
     color: #01579B;
@@ -27,6 +45,11 @@
 .special-button{
     margin-bottom: 25px;
     background-color: white;
+}
+
+/*---------- frequent questions -------------*/
+.asker img{
+    width: 500px;
 }
 
 /* ---------footer-------- */
