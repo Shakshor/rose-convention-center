@@ -1,15 +1,32 @@
 /*--------- card group ----*/
+.card .card-title{
+    color: #01579B;
+}
+
 .special-card{
     position: relative;
-    border: 1px solid blue;
-    bottom: 45px;
+    border-radius: 20px;
+    bottom: 50px;
     background-color: #0091EA;
+    color: #F4FF81;
+}
+.special-card #hot{
+    position: absolute;
+    top: -12px;
+    right: 30px;
+    background-color: red;
+    border-radius: 30%;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    padding: 0 5px;
+}
+.special-card .card-title{
+    color: #76FF03;
 }
 .special-button{
-    border: 1px solid blue;
     margin-bottom: 25px;
     background-color: white;
-    /* z-index: 1; */
 }
 
 /* ---------footer-------- */
