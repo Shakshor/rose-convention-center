@@ -72,8 +72,8 @@
 --------------------------- */
 
 /*---------- Mobile Device --------*/
-/* ----------image slider--------- */
 @media screen and (max-width: 576px) {
+ /* ----------image slider--------- */
     .carousel-caption{
         padding-bottom: 5px;
     }
@@ -115,14 +115,20 @@
         font-size: 10px;
     }
 
-    /*------------------------
-     frequently asked question 
-     -------------------------*/
+/*--------------frequently asked question ------------*/
     .accordion-style{
         flex-direction: column-reverse;
     }
     .half-width{
         width: 100%;
+    }
+/*----------- footer ------------*/
+    footer{
+        height: 32vh;
+    }
+    .footer-part #copyright{
+        padding-left: 32px;
+        margin-top: 15px;
     }
 }
 
