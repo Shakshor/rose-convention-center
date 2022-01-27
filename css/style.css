@@ -67,11 +67,11 @@
     width: 150px;
 }
 
-/*--------------- 
+/*-------------------------- 
     Media Queries
 --------------------------- */
 
-/* --------header--------------- */
+/*---------- Mobile Device --------*/
 /* ----------image slider--------- */
 @media screen and (max-width: 576px) {
     .carousel-caption{
@@ -126,4 +126,22 @@
     }
 }
 
-
+/* ----------Tablet Device ---------*/
+@media screen and (min-width: 769px) and (max-width: 992px){
+/*------------- card groups ----------*/
+    .special-card{
+        bottom: 0;   
+    }
+/*------------- food menu ----------*/
+    .food-list h2{
+        font-size: 25px;
+    }
+    .food-list h4{
+        font-size: 20px;
+    }
+/*------------- frequent questions ----------*/
+    .asker img{
+        margin-top: 75px;
+        margin-left: 15px;
+    }
+}
