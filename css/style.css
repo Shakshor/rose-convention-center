@@ -1,9 +1,8 @@
 /* -------- header part ------ */
+.carousel-indicators{
+    margin-bottom: 0;
+}
 .toast{
-    /* display: block; */
-    position: absolute;
-    top: 80px;
-    right: 10px;
     width: 230px;
     border-left: 5px solid #00E676;
     
@@ -16,7 +15,7 @@
     margin-left: 12px;
 }
 
-/*--------- card group ----*/
+/*--------- card group --------*/
 .card .card-title{
     color: #01579B;
 }
@@ -24,7 +23,7 @@
 .special-card{
     position: relative;
     border-radius: 20px;
-    bottom: 50px;
+    bottom: 30px;
     background-color: #0091EA;
     color: #F4FF81;
 }
@@ -48,6 +47,9 @@
 }
 
 /*---------- frequent questions -------------*/
+.half-width{
+    width: 50%;
+}
 .asker img{
     width: 500px;
 }
@@ -64,3 +66,64 @@
     padding: 0;
     width: 150px;
 }
+
+/*--------------- 
+    Media Queries
+--------------------------- */
+
+/* --------header--------------- */
+/* ----------image slider--------- */
+@media screen and (max-width: 576px) {
+    .carousel-caption{
+        padding-bottom: 5px;
+    }
+    .carousel-item .btn{
+        padding: 0;
+        font-size: 12px;
+    }
+    .carousel-item p{
+        margin-bottom: 0;
+        font-size: 11px;
+        line-height: 1;
+    }
+    .carousel-item h1{
+        font-size: 20px;
+        font-weight: 700
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        width: 1rem;
+        height: 1rem;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 22px;
+        margin-right: 8px;
+    }
+
+/*-------- card ----------*/
+    .special-card{
+        bottom: 0;
+    }
+    .food-list h2{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .food-list h4{
+        font-size: 15px;
+    }
+    .food-list .btn{
+        margin-bottom: 35px;
+        font-size: 10px;
+    }
+
+    /*------------------------
+     frequently asked question 
+     -------------------------*/
+    .accordion-style{
+        flex-direction: column-reverse;
+    }
+    .half-width{
+        width: 100%;
+    }
+}
+
+
